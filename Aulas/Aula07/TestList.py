@@ -1,0 +1,15 @@
+from List import List
+
+list = List()
+print("Iniciando")
+print("Tamanho: " , int(len(list)))
+list.push(30)
+print("Tamanho: " , int(len(list)))
+list.print()
+print("Tamanho: " , int(len(list)))
+list.push(40)
+list.push(42)
+list.print()
+list.addList(1, 50 )
+print("-----")
+list.print()
